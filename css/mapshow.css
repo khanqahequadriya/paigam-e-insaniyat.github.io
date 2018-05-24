@@ -1,0 +1,11 @@
+.map-wrapper {
+	position: relative;
+	padding-bottom: 56.25%
+}
+.map-wrapper iframe{
+	position: absolute;
+	width: 75%;
+	height: 75%;
+	top: 5;
+	left: 0;
+}
