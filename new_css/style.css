@@ -53,15 +53,15 @@ body{
 
 @media (min-width: 320px) and (max-width: 640px) {
 	.navbar-brand{
-		font-size: 14px;
+		font-size: 20px;
 		font-family: 'Pacifico', cursive;
 	}
     .carousel{
-    	margin-top: 74px;
-    	height: 131px;
+    	margin-top: 56px;
+    	height: 295px;
     }
     .carousel img{
-    	100px;
+    	height: 300px;
     }
     .nav-container{
     	top: 92px;
