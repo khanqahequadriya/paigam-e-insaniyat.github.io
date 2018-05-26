@@ -45,8 +45,34 @@ body{
 	height: 100%;
 }
 
-@media (max-width: 600px) and (min-width: 400px) {
-    body {
-        background-color: red;
+@media (min-width: 320px) and (max-width: 640px) {
+    .carousel{
+    	margin-top: 74px;
+    	height: 131px;
     }
+    .carousel img{
+    	100px;
+    }
+    .nav-container{
+    	top: 92px;
+		left: 36px;
+    }
+    .nav-container h1{
+		font-size: 18px;
+    }
+    .button-container{
+	position: relative;
+    top: -44px;
+    right: -90px;
+     height: 15px;
+    width: 102px;
+   }
+
+.button-container a{
+	position: relative;
+    top: -14px;
+    font-size: 14px;
+
+   }
+
 }
