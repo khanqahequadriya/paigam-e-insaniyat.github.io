@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
 
 *{
 	padding: 0;
@@ -8,22 +8,27 @@ body{
 	background-color: #f8f8f8;
 }
 .navbar-brand{
-		font-size: 24px;
-		font-family: 'Pacifico', cursive;
+		font-size: 30px;
+		font-family: 'Song Myung', serif;
 	}
 
 .nav-container{
 	 position: absolute;
-    left: 110px;
-    top: 180px;
+    left: 59px;
+    top: 132px;
     color: #fff;
+    font-family: 'Song Myung', serif;
+    font-size: 30px;
+}
+.nav-container h1{
+	font-size: 3.0rem;
 }
 
 .button-container{
 	border: 1px solid black;
 	margin-top: 20px;
 	margin-top: 20px;
-    width: 165px;
+    width: 430px;
     margin: 0 auto;
     background-color: #007bff;
     border-color: #007bff;
@@ -54,7 +59,7 @@ body{
 @media (min-width: 320px) and (max-width: 640px) {
 	.navbar-brand{
 		font-size: 20px;
-		font-family: 'Pacifico', cursive;
+		font-family: 'Song Myung', serif;
 	}
     .carousel{
     	margin-top: 56px;
@@ -66,21 +71,23 @@ body{
     .nav-container{
     	top: 92px;
 		left: 36px;
+		font-family: 'Song Myung', serif;
+		font-size: 14px;
     }
     .nav-container h1{
 		font-size: 18px;
     }
     .button-container{
 	position: relative;
-    top: -44px;
-    right: -90px;
-     height: 15px;
-    width: 102px;
+	top: -9px;
+    right: 36px;
+    height: 42px;
+    width: 149px;
    }
 
 .button-container a{
 	position: relative;
-    top: -14px;
+    top: -11px;
     font-size: 14px;
 
    }
