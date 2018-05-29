@@ -93,3 +93,42 @@ body{
    }
 
 }
+
+@media (min-width: 641px) and (max-width: 1000px) {
+	.navbar-brand{
+		font-size: 30px;
+		font-family: 'Song Myung', serif;
+	}
+    .carousel{
+    	margin-top: 56px;
+    	height: 302px;
+    	top: 15px;
+    }
+    .carousel img{
+    	height: 300px;
+    }
+    .nav-container{
+    	top: 92px;
+		left: 36px;
+		font-family: 'Song Myung', serif;
+		font-size: 21px;
+    }
+    .nav-container h1{
+		font-size: 30px;
+    }
+    .button-container{
+	position: relative;
+	top: -9px;
+    right: 75px;
+    height: 42px;
+    width: 305px;
+   }
+
+.button-container a{
+	position: relative;
+    top: -11px;
+    font-size: 17px;
+
+   }
+
+}
