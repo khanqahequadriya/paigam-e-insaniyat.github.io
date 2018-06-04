@@ -131,16 +131,36 @@ permalink: "./urs_2014.html"
 	    </nav>
 	    <br>
 	    <br><br>
-	    <h1><font face="'Song Myung', serif"> Photo Gallery Of URS Rabiawwal 2014</font></h1>
+	    <h1><center><font face="'Song Myung', serif"> Photo Gallery Of URS Rabiawwal 2014</font></center></h1>
 		<!--- POPUP IMAGE-->
 		<!-- images will be shown below this -->
-	  	<div class="img-list"></div>
+	  	<center><div class="img-list"></div></center>
 		<!-- The Modal -->
 		<div id="myModal" class="modal">
 		  <span class="close">&times;</span>
 		  <img src="" class="modal-content" alt="">
 		  <div id="caption"></div>
 		</div>
+		<nav aria-label="...">
+		  <ul class="pagination justify-content-center">
+		    <li class="page-item disabled">
+		      <span class="page-link">Previous</span>
+		    </li>
+		    <li class="page-item active">
+		      <span class="page-link">
+		        1
+		        <span class="sr-only">(current)</span>
+		      </span>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="./urs_2014_1.html">2</a></li>
+		    <li class="page-item"><a class="page-link" href="./urs_2014_2.html">3</a></li>
+		    <li class="page-item"><a class="page-link" href="./urs_2014_3.html">4</a></li>
+		    <li class="page-item">
+		      <a class="page-link" href="./urs_2014_1.html">Next</a>
+		    </li>
+		  </ul>
+		</nav>
+		
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -153,11 +173,11 @@ permalink: "./urs_2014.html"
 			 // this loop controls the number of times the images shows
 
 			 let i;
-			 for(i = 001; i <= 265; i++){
+			 for(i = 01; i <= 68; i++){
 			 	
 			 	$(".img-list").after(
 
-			 		' <img  id="img-'+i+'" src="images/urs_2014/image'+i+'.jpg" alt="urs_2014" width="300" height="200" class="img-thumbnail">'
+			 		' <img  id="img-'+i+'" src="images/urs_2014/image0'+i+'.jpg" alt="urs_2014" width="300" height="200" class="img-thumbnail">'
 
 			 		);
 
@@ -196,8 +216,6 @@ permalink: "./urs_2014.html"
 
 
 		</script>
-
-
 		
 	</body>
 </html>

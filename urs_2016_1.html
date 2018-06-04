@@ -1,14 +1,14 @@
 ---
-permalink : "./urs_2016.html"
+permalink: "./urs_2016_1.html"
 ---
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<title>Paigam-e-Insaniyat</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/videoplay.css">
 		<link rel="stylesheet" href="new_css/style.css">
 		<style>
 			#myImg {
@@ -128,20 +128,13 @@ permalink : "./urs_2016.html"
 		          </ul>
 		        </div>
 	      </div>
-	    </nav><br><br>
+	    </nav>
 	    <br>
-
-
+	    <br><br>
+	    <h1><center><font face="'Song Myung', serif"> Photo Gallery Of URS Rabiawwal 2016</font></center></h1>
 		<!--- POPUP IMAGE-->
-
-
-
-	  <!-- images will be shown below this -->
-	  <div class="img-list"></div>
-
-
-	  
-	
+		<!-- images will be shown below this -->
+	  	<center><div class="img-list"></div></center>
 		<!-- The Modal -->
 		<div id="myModal" class="modal">
 		  <span class="close">&times;</span>
@@ -149,15 +142,29 @@ permalink : "./urs_2016.html"
 		  <div id="caption"></div>
 		</div>
 
+		<nav aria-label="...">
+		  <ul class="pagination justify-content-center">
+		    <li class="page-item">
+		      <a class="page-link" href="./urs_2016.html">Previous</a>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="./urs_2016.html">1</a></li>
+		    <li class="page-item active">
+		      <span class="page-link">
+		        2
+		        <span class="sr-only">(current)</span>
+		      </span>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="./urs_2016_2.html">3</a></li>
+		    <li class="page-item">
+		      <a class="page-link" href="./urs_2016_2.html">Next</a>
+		    </li>
+		  </ul>
+		</nav>
 		
-	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ></script>
-
-
 		<script>
-
-
 		//  show the list of images
 
 		$(function(){
@@ -165,11 +172,11 @@ permalink : "./urs_2016.html"
 			 // this loop controls the number of times the images shows
 
 			 let i;
-			 for(i = 1; i <= 4; i++){
+			 for(i = 58; i <= 114; i++){
 			 	
 			 	$(".img-list").after(
 
-			 		' <img  id="img-'+i+'" src="images/image'+i+'.jpg" alt="urs_2016" width="300" height="200">'
+			 		' <img  id="img-'+i+'" src="images/urs_2016/image'+i+'.jpg" alt="urs_2016" width="300" height="200" class="img-thumbnail">'
 
 			 		);
 
@@ -210,5 +217,6 @@ permalink : "./urs_2016.html"
 		</script>
 
 
+		
 	</body>
 </html>
