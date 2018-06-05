@@ -132,3 +132,10 @@ body{
    }
 
 }
+.img-thumbnail {
+    height: 180px;
+}
+
+.modal-content {
+    height: 80%;
+}
