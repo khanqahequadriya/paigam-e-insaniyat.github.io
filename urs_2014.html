@@ -10,6 +10,7 @@ permalink: "./urs_2014.html"
 		<title>Paigam-e-Insaniyat</title>
 		<link rel="stylesheet" href="css/videoplay.css">
 		<link rel="stylesheet" href="new_css/style.css">
+		<link rel="stylesheet" href="preloader/loaders.min.css">
 		<style>
 			#myImg {
 			    border-radius: 5px;
@@ -93,6 +94,7 @@ permalink: "./urs_2014.html"
 		</style>
 	</head>
 	<body>
+		<main>
 		<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
 	      	<div class="container">
 	        	<a class="navbar-brand" href="./index.html"><b>Paigam-e-Insaniyat</b></a>
@@ -160,7 +162,12 @@ permalink: "./urs_2014.html"
 		    </li>
 		  </ul>
 		</nav>
-		
+		</main>
+		<!--preloader-->
+	      <div class="loader">
+	        <div class="loader-inner pacman">
+	        </div>
+	      </div>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -215,6 +222,19 @@ permalink: "./urs_2014.html"
 		});
 
 
+		</script>
+		<script src="preloader/loaders.css.js"></script>
+		<script type="text/javascript">
+		  $(document).ready(function(){
+		    $('main').hide();
+		    $(window).on({
+		        load: function(){
+		          $('.loader').hide();
+		          $('main').show();
+		        }
+		    });
+
+		  });
 		</script>
 		
 	</body>
